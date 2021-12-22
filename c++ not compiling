@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cmath>
+
+using namespace std; //using directive
+using std::cout;
+using std::cin;
+
+
+
+int main(/*words in the brackets are called argunemts? More than one is often needed*/)
+    {
+        int slices; //declaration (int) says it exists, then initialisation (Slices = 5) says it has a value
+        cout << "How many slices of pizza do you want?";
+        cin >> slices;
+        {
+        if (slices > 0)
+            cout << "You have "<< slices << " slices of pizza.\n" << std::endl;//Gives text statment, gives integer variable, gives second text statment, ends line.
+        else
+            cout << "Choose The Slices.";
+        }   
+    }
